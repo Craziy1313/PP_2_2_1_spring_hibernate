@@ -29,8 +29,8 @@ public class UserServiceImp implements UserService {
 
    @Transactional
    @Override
-   public void searchFromCar(String model, int series) {
-      userDao.searchFromCar(model, series);
+   public Car searchFromCar(String model, int series) {
+      return userDao.searchFromCar(model, series);
 
    }
 

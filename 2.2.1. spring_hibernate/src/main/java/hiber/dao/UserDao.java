@@ -8,5 +8,5 @@ import java.util.List;
 public interface UserDao {
    void add(User user);
    List<User> listUsers();
-   void searchFromCar(String model, int series);
+   Car searchFromCar(String model, int series);
 }

@@ -32,7 +32,7 @@ public class MainApp {
          System.out.println();
       }
 
-      userService.searchFromCar("Tesla",5);
+      System.out.println(userService.searchFromCar("Tesla",5).getUser());
 
       context.close();
    }
